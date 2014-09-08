@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AndroidTunnel" />
+            <option value="$PROJECT_DIR$/BluetoothLib" />
+            <option value="$PROJECT_DIR$/Common" />
+            <option value="$PROJECT_DIR$/GlassTunnel" />
+            <option value="$PROJECT_DIR$/IntentTunnel" />
+            <option value="$PROJECT_DIR$/MusicPusherSample" />
+            <option value="$PROJECT_DIR$/PebbleKit" />
+            <option value="$PROJECT_DIR$/SamMessageSender" />
+            <option value="$PROJECT_DIR$/Sensor" />
+            <option value="$PROJECT_DIR$/pebbleglasshub" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

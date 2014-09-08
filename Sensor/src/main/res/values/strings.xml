@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Motion Sensor Demo</string>
+
+    <string name="motionsensordemo_screen_content">Motion Sensor Demo is Currently Active\nTap to Stop</string>
+    <string name="motionsensordemo_livecard_content">Motion Sensor Data:</string>
+
+    <!--  MotionSensorDemoLocalService  -->
+    <string name="motionsensordemo_localservice_started">Motion Sensor Demo Service started.</string>
+
+    <!--  For voice input  -->
+    <string name="motionsensordemo_voice_trigger">start motion sensor demo</string>
+    <string name="motionsensordemo_voice_prompt">next action</string>
+
+</resources>

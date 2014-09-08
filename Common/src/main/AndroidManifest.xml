@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.masterbaron.intenttunnel.common">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--
+    <permission android:name="com.masterbaron.intenttunnel.SEND"
+        android:label="@string/sendPermissionName"
+        android:description="@string/sendPermissionDesc"
+        android:permissionGroup="android.permission-group.BLUETOOTH_NETWORK"
+        android:protectionLevel="dangerous" />
+    -->
+    <application>
+        <service android:name="com.masterbaron.intenttunnel.router.RouterService"
+            android:exported="true"/> <!-- android:permission="com.masterbaron.intenttunnel.SEND" -->
+        <receiver android:name="com.masterbaron.intenttunnel.router.ServiceReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="samshared.MessengerService"
+            android:exported="true"
+            android:process=":remote"/>
+    </application>
+</manifest>

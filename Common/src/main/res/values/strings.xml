@@ -1,0 +1,8 @@
+<resources>
+    <string name="sendPermissionName">Send Tunnel Intents</string>
+    <string name="sendPermissionDesc">Allow application to send intents to other bluetooth devices using the TunnelIntents application</string>
+
+    <string name="bluetooth_server_uuid"></string>
+    <string name="bluetooth_client_uuid"></string>
+
+</resources>

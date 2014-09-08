@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidTunnel/AndroidTunnel.iml" filepath="$PROJECT_DIR$/AndroidTunnel/AndroidTunnel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BluetoothLib/BluetoothLib.iml" filepath="$PROJECT_DIR$/BluetoothLib/BluetoothLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Glass-IntentTunnel2.iml" filepath="$PROJECT_DIR$/Glass-IntentTunnel2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GlassTunnel/GlassTunnel.iml" filepath="$PROJECT_DIR$/GlassTunnel/GlassTunnel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntentTunnel/IntentTunnel.iml" filepath="$PROJECT_DIR$/IntentTunnel/IntentTunnel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MusicPusherSample/MusicPusherSample.iml" filepath="$PROJECT_DIR$/MusicPusherSample/MusicPusherSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PebbleKit/PebbleKit.iml" filepath="$PROJECT_DIR$/PebbleKit/PebbleKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SamMessageSender/SamMessageSender.iml" filepath="$PROJECT_DIR$/SamMessageSender/SamMessageSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sensor/Sensor.iml" filepath="$PROJECT_DIR$/Sensor/Sensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pebbleglasshub/pebbleglasshub.iml" filepath="$PROJECT_DIR$/pebbleglasshub/pebbleglasshub.iml" />
+    </modules>
+  </component>
+</project>
+
